@@ -1,9 +1,12 @@
 const input = require("readline-sync");
 let a = input.questionInt("Enter value of a- ");
 let b = input.questionInt("Enter value of b- ");
- 
-c=b
-b=a
-a=c
 
-console.log(a,b);
+c=a+b
+d=a-b
+e=a*b
+f=a/b
+g=Math.floor (a/b)
+h=a%b
+
+console.log(c,d,e,f,g,h);
